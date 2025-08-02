@@ -89,17 +89,23 @@ const mockData = {
 
 ```
 /client
-  /components
-    Card.jsx
-    ProtectedRoute.jsx
-  /pages
-    Login.jsx
-    Dashboard.jsx
-    Settings.jsx
-    NotAuthorized.jsx
-  /hooks
-    useAuth.js
-  App.jsx
+  /src
+    /components
+      Card.css
+      Card.jsx
+      ProtectedRoute.jsx
+    /pages
+      Login.jsx
+      Login.css
+      Dashboard.jsx
+      Dashboard.css
+      Settings.jsx
+      Settings.css
+      NotAuthorized.jsx
+      NotAuthorized.css
+   /hooks
+      useAuth.js
+   App.jsx
 
 /server
   /routes
@@ -321,15 +327,3 @@ The application has been optimized to eliminate React Hook dependency warnings:
 ### Frontend Deployment
 1. Build the app: `npm run build`
 2. Serve the `build` folder
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License. 
