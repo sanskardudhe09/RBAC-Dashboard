@@ -1,0 +1,36 @@
+{
+  "name": "rbac-admin-dashboard",
+  "version": "1.0.0",
+  "description": "RBAC-Powered Admin Dashboard with JWT Authentication",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-client": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run install-client && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "rbac",
+    "admin",
+    "dashboard",
+    "jwt",
+    "authentication",
+    "mock-data"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
