@@ -327,3 +327,7 @@ The application has been optimized to eliminate React Hook dependency warnings:
 ### Frontend Deployment
 1. Build the app: `npm run build`
 2. Serve the `build` folder
+
+## Project Snapshots
+
+![Login Page](./screenshots/dashboard.png)
