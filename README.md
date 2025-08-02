@@ -331,3 +331,9 @@ The application has been optimized to eliminate React Hook dependency warnings:
 ## Project Snapshots
 
 ![Login Page](./screenshots/dashboard.png)
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d7efa621-85be-4d32-9b85-8ad69caa0237" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e9ccbfe0-529b-4842-855f-dc4d1febe16d" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/02fef733-334d-49de-acd4-c470ca50c6a7" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/01faaeb7-f032-40a0-9621-f0adf81f0e34" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/907de27c-c143-4676-a941-a1911f76ee6d" />
